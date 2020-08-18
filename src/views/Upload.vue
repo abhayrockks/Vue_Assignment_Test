@@ -1,5 +1,16 @@
 <template>
   <div>
-    <h1>Upload Page</h1>
+    <UploadedFile />
   </div>
 </template>
+
+<script>
+import UploadedFile from "./../components/UploadedFile.vue";
+
+export default {
+  name: "UploadFile",
+  components: {
+    UploadedFile,
+  },
+};
+</script>
