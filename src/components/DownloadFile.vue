@@ -24,7 +24,7 @@ export default {
       json_fields: {
         Id: "id",
         Variant: "product_details.variant",
-        Titile: "product_details.title",
+        Title: "product_details.title",
         sku: "product_details.sku",
         Price: "product_details.price",
         Cogs: "product_details.cogs",
